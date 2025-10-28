@@ -1,0 +1,13 @@
+# MkDocs
+site/
+.cache/
+
+# Virtual environment
+venv/
+env/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
