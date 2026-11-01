@@ -1,3 +1,33 @@
 /* Custom styles for Propuestas didácticas */
-/* Add your custom CSS here */
+/* Hide elements in print site */
+
+/* Hide cookie consent banner on print page */
+.md-consent__inner,
+.md-consent,
+[data-md-component="consent"] {
+  display: none !important;
+}
+
+/* Hide header and navigation on print page */
+.md-header,
+.md-sidebar,
+.md-nav--secondary,
+.md-header__inner,
+.md-nav,
+.md-header__topic {
+  display: none !important;
+}
+
+/* Hide top banner */
+.md-banner {
+  display: none !important;
+}
+
+/* Ensure clean print layout */
+@media print {
+  body > .md-consent,
+  body > .md-header {
+    display: none !important;
+  }
+}
 

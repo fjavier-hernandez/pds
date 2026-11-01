@@ -1,16 +1,21 @@
-![Portada: Proyecto de Aula ATECA - Administración de Sistemas Operativos 2025-2026](images/portada-aso-25-26.png)
+---
+title: Propuesta Didáctica - Administración de Sistemas Operativos (ASO)
+description: Propuesta Didáctica del módulo ASO para el curso 2025-2026
+---
 
-<!-- El título se generará automáticamente por el TOC de Pandoc, no añadimos H1 aquí -->
+# Propuesta Didáctica - Administración de Sistemas Operativos (ASO)
 
-# INTRODUCCIÓN
+**IES Macià Abela - Curso 2025-2026**
+
+# 1. INTRODUCCIÓN
 
 En el presente documento se presenta la Propuesta Pedagógica del módulo profesional de **Administración de Sistemas Operativos** (ASO) con código 0374, que se imparte en segundo curso del Ciclo Formativo de Grado Superior (CFGS) denominado Administración de Sistemas Informáticos en Red (ASIR) cuyo código es CINE-5b, conforme al **Real Decreto 1629/2009, de 30 de octubre** [boe.es](https://www.boe.es/boe/dias/2009/11/18/pdfs/BOE-A-2009-18355.pdf), por el que se establece el título y se fijan sus enseñanzas mínimas. Dicho módulo se imparte en el **IES Macià Abela** de Crevillente.
 
 El módulo profesional de ASO está directamente relacionado con las siguientes unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales: **UC0490_3: Gestionar servicios en el sistema informático** y **UC0485_3: Instalar, configurar y administrar el software de base y de aplicación del sistema**. Por tanto, la superación de dicho módulo conllevará la acreditación de estas unidades de competencia según lo establecido en el Real Decreto 1629/2009.
 
-# APORTACIONES DEL MÓDULO AL DESARROLLO DE LAS COMPETENCIAS
+# 2. APORTACIONES DEL MÓDULO AL DESARROLLO DE LAS COMPETENCIAS
 
-## Relación de las cualificaciones y unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales del Ciclo
+## 2.1. Relación de las cualificaciones y unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales del Ciclo
 
 ### Correspondencia del módulo 0374: Administración de sistemas operativos
 
@@ -22,13 +27,13 @@ Módulo profesional superado | Unidades de competencia acreditables |
 
 El módulo contribuye directamente a las competencias profesionales de administración de sistemas operativos de servidor y gestión de recursos del sistema. La superación del módulo profesional 0374 permite la acreditación de las unidades de competencia UC0490_3 y UC0485_3 según establece el Real Decreto 1629/2009.
 
-## Relación con el desarrollo de la competencia general
+## 2.2. Relación con el desarrollo de la competencia general
 
 La competencia general de este título consiste en **configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la reglamentación vigente.**
 
 El módulo de Administración de Sistemas Operativos contribuye a dicha competencia general de manera directa, ya que los alumnos y alumnas deberán administrar y mantener sistemas operativos de servidor, gestionar servicios de directorio, procesos del sistema y automatizar tareas del sistema.
 
-## Relación con las competencias profesionales, personales y sociales
+## 2.3. Relación con las competencias profesionales, personales y sociales
 
 Según el **Artículo 5 del Real Decreto 1629/2009** [boe.es](https://www.boe.es/boe/dias/2009/11/18/pdfs/BOE-A-2009-18355.pdf), las competencias profesionales, personales y sociales a las que contribuye el módulo de ASO son las siguientes:
 
@@ -40,21 +45,23 @@ Código | Competencia | Por qué contribuye ASO |
 **n)** | Gestionar y/o realizar el mantenimiento de los recursos de su área (programando y verificando su cumplimiento), en función de las cargas de trabajo y el plan de mantenimiento. | Porque el módulo trabaja la automatización de tareas del sistema mediante lenguajes de guiones, programación de tareas y gestión de recursos del sistema operativo. |
 **p)** | Mantener el espíritu de innovación y actualización en el ámbito de su trabajo para adaptarse a los cambios tecnológicos y organizativos de su entorno profesional. | Porque ASO implica trabajar con diferentes tecnologías (sistemas libres y propietarios), estar actualizado con las novedades del sector y adaptarse a las nuevas tendencias en administración de sistemas. |
 
-# OBJETIVOS
+# 3. OBJETIVOS
 
-## Contribución del módulo ASO a los objetivos generales
+## 3.1. Contribución del módulo ASO a los objetivos generales
 
 Según el **Artículo 9 del Real Decreto 1629/2009** [boe.es](https://www.boe.es/boe/dias/2009/11/18/pdfs/BOE-A-2009-18355.pdf), los objetivos generales a los que contribuye el módulo de ASO son los siguientes:
 
 Código | Objetivo | Por qué contribuye ASO |
 |:------:|----------|------------------------|
-**a)** | Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor. | Porque el módulo aborda la administración y análisis de sistemas operativos, trabajando tanto con sistemas libres (Linux) como propietarios (Windows Server), comparando sus características y prestaciones. |
-**o)** | Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones. | Porque ASO incluye la monitorización y gestión de procesos del sistema, análisis del rendimiento y diagnóstico de disfunciones mediante herramientas de monitorización del sistema. |
-**p)** | Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento. | Porque el módulo trabaja la automatización de tareas del sistema mediante lenguajes de guiones (bash, PowerShell), programación de tareas y gestión de mantenimiento preventivo y correctivo. |
-**r)** | Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas. | Porque el trabajo en grupo y colaboración son esenciales en la administración de sistemas, donde se requiere tomar decisiones técnicas y trabajar en equipo para resolver problemas del sistema. |
-**s)** | Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional. | Porque el módulo incluye la búsqueda de información sobre nuevas tecnologías, actualizaciones del sector y preparación para el entorno laboral real en administración de sistemas. |
+**a)** | Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor. | Administración de sistemas libres (Linux) y propietarios (Windows Server), comparando características y prestaciones |
+**o)** | Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones. | Monitorización, gestión de procesos, análisis de rendimiento y diagnóstico mediante herramientas de monitorización |
+**p)** | Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento. | Automatización de tareas mediante lenguajes de guiones (bash, PowerShell), programación de tareas y gestión de mantenimiento |
+**r)** | Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas. | Trabajo en equipo, toma de decisiones técnicas y colaboración para resolver problemas del sistema |
+**s)** | Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional. | Búsqueda de información sobre nuevas tecnologías, actualizaciones del sector y preparación para el entorno laboral |
 
-## Resultados de Aprendizaje
+<div class="page-break-before"></div>
+
+## 3.2. Resultados de Aprendizaje
 
 Código | Descripción                                                                                                                        | Peso (%) |
 ------ | ---------------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -68,9 +75,11 @@ RA7    | Utiliza lenguajes de guiones en sistemas operativos, describiendo su ap
 
 **Total: 100%**
 
-# CONTENIDOS
+<div class="page-break-before"></div>
 
-## Criterios para la secuenciación y definición de las Unidades Didácticas
+# 4. CONTENIDOS
+
+## 4.1. Criterios para la secuenciación y definición de las Unidades Didácticas
 
 Para la definición de las unidades de trabajo de este módulo, se ha realizado un análisis basado en el **Ciclo CORC** (Competencias - Objetivos - Resultados de Aprendizaje - Criterios de Evaluación) desarrollado por [Raül Solbes](https://raulsolbes.com/2025/01/08/ciclo-corc-ensenanzas-de-fp/). Este enfoque metodológico permite establecer una secuencia coherente de los contenidos partiendo de los Resultados de Aprendizaje y garantizando la adquisición de las competencias profesionales.
 
@@ -90,6 +99,8 @@ Por tanto, para definir las unidades de trabajo se ha partido del análisis de l
 
 **Unidades de Trabajo del módulo ASO**
 
+<div class="table-unidades-ra"></div>
+
 A partir del análisis realizado en el ciclo de corc, hemos definido **8 unidades de trabajo (UT)**. A continuación, en la siguiente tabla y a modo de mapa general, se muestran las diferentes UT y los RA que cubren, indicando la carga horaria empleada durante el presente curso en cada una de ellas:
 
 |Unidades de Trabajo                                   | RA1 | RA2 | RA3 | RA4 | RA5 | RA6 | RA7 |
@@ -104,13 +115,13 @@ A partir del análisis realizado en el ciclo de corc, hemos definido **8 unidade
 |[8. Administración de Servidores de Impresión](#ut8-administración-de-servidores-de-impresión) |     |     |     |     |  X  |     |     |
 |**Total - 133 h** <br> **Porcentaje**                  | X <br> 20% | X <br> 10% | X <br> 10% | X <br> 10% | X <br> 10% | X <br> 20% | X <br> 20% |
 
-## Definición de las unidades de trabajo
+## 4.2. Definición de las unidades de trabajo
 
 Las siguientes unidades de trabajo se han organizado para seguir el orden lógico y progresivo marcado en el apartado anterior, asegurando coherencia y conexión entre contenidos y competencias.
 
 ---
 
-### UT1: ShellScripting
+### 4.2.1. UT1: ShellScripting
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 12 horas (6 sesiones de 2 horas) |
@@ -123,7 +134,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT2: PowerShell
+### 4.2.2. UT2: PowerShell
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 12 horas (6 sesiones de 2 horas) |
@@ -136,7 +147,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT3: Servicios de acceso remoto
+### 4.2.3. UT3: Servicios de acceso remoto
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 12 horas (6 sesiones de 2 horas) |
@@ -149,7 +160,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT4: Servicios de directorio
+### 4.2.4. UT4: Servicios de directorio
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 24 horas (12 sesiones de 2 horas) |
@@ -162,7 +173,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT5: Integración de Sistemas
+### 4.2.5. UT5: Integración de Sistemas
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 24 horas (12 sesiones de 2 horas) |
@@ -175,7 +186,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT6: Administración de Procesos del Sistema
+### 4.2.6. UT6: Administración de Procesos del Sistema
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 12 horas (6 sesiones de 2 horas) |
@@ -188,7 +199,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT7: Automatización y monitorización
+### 4.2.7. UT7: Automatización y monitorización
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 12 horas (6 sesiones de 2 horas) |
@@ -201,7 +212,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-### UT8: Administración de Servidores de Impresión
+### 4.2.8. UT8: Administración de Servidores de Impresión
 | Elemento de programación | Descripción |
 |--------------------------|-------------|
 | **Duración** | 12 horas (6 sesiones de 2 horas) |
@@ -214,7 +225,7 @@ Las siguientes unidades de trabajo se han organizado para seguir el orden lógic
 
 ---
 
-## Temporalización de las unidades didácticas
+## 4.3. Temporalización de las unidades didácticas
 
 En el **Anexo II de la ORDEN 36/2012, de 22 de junio**, se puede observar la secuenciación y distribución horaria semanal del módulo. De esta información, se puede extraer que el módulo de **Administración de Sistemas Operativos** dispone de una carga lectiva completa de **133 horas** a razón de **4 horas semanales** impartidas durante el curso, salvo las últimas 10 semanas que corresponden a la formación en centros de trabajo (FCT).
 
@@ -222,14 +233,14 @@ De las 133 horas totales, **108 horas** se destinan a las unidades de trabajo y 
 
 A continuación, se muestra la distribución de las unidades de trabajo a lo largo de las dos evaluaciones del curso:
 
-## Distribución temporal
+## 4.4. Distribución temporal
 
 | Evaluación | Unidades de Trabajo | Horas |
 |:----------:|:---------------------|:-----:|
 | **1ª Evaluación** | UT1: ShellScripting<br>UT2: PowerShell<br>UT3: Servicios de acceso remoto<br>UT4: Servicios de directorio | 12<br>12<br>12<br>24 |
 | **2ª Evaluación** | UT5: Integración de Sistemas<br>UT6: Administración de Procesos del Sistema<br>UT7: Automatización y monitorización<br>UT8: Administración de Servidores de Impresión | 24<br>12<br>12<br>12 |
 
-# ACTIVIDADES DE ENSEÑANZA Y APRENDIZAJE
+# 5. ACTIVIDADES DE ENSEÑANZA Y APRENDIZAJE
 
 Las actividades de enseñanza-aprendizaje son fundamentales para el desarrollo de las competencias profesionales del alumnado en el módulo de **Administración de Sistemas Operativos**. Para ello, se diseñarán actividades que permitan aplicar los conocimientos teóricos en contextos prácticos reales, fomentando el aprendizaje significativo y la resolución de problemas del mundo laboral.
 
@@ -237,19 +248,19 @@ Se plantearán actividades variadas que faciliten diferentes tipos de aprendizaj
 
 | Tipo de actividad | Código | Objetivo | Características |
 |-------------------|--------|----------|-----------------|
-| **Actividades de Enseñanza-Aprendizaje** | AE-A | Desarrollar los conocimientos y procedimientos propios de cada unidad de trabajo mediante prácticas guiadas y progresivas. | - Configuración de servicios (SSH, LDAP, AD, NFS, Samba)<br>- Desarrollo de scripts en bash y PowerShell<br>- Administración de procesos, automatización y monitorización<br>- Integración entre sistemas heterogéneos<br>- Uso de herramientas gráficas y línea de comandos |
-| **Actividades de Refuerzo** | AE-R | Consolidar los contenidos mínimos y superar dificultades de aprendizaje. | - Ejercicios adicionales de configuración básica<br>- Repetición de prácticas con mayor apoyo<br>- Tutorización personalizada<br>- Recursos multimedia adicionales |
-| **Actividades de Profundización** | AE-P | Ampliar conocimientos más allá de los contenidos mínimos exigibles. | - Configuraciones avanzadas de servicios<br>- Scripts complejos de administración<br>- Optimización y hardening de sistemas<br>- Implementación de soluciones empresariales |
-| **Actividades del Proyecto** | AE-PR | Integrar conocimientos de múltiples unidades mediante proyectos reales. | - Proyecto de integración de servicios de directorio<br>- Automatización completa de infraestructura<br>- Scripts de monitorización y alertas<br>- Documentación técnica de soluciones |
-| **Actividades del Reto** | AE-RT | Desarrollar competencias mediante resolución de problemas complejos y abiertos. | - Resolución de incidencias en tiempo real<br>- Desafíos de integración de sistemas<br>- Optimización de rendimiento bajo estrés<br>- Gestión de entornos heterogéneos |
+| **Actividades de Enseñanza-Aprendizaje** | AE-A | Desarrollar los conocimientos y procedimientos propios de cada unidad de trabajo mediante prácticas guiadas y progresivas. | Configuración de servicios (SSH, LDAP, AD, NFS, Samba), desarrollo de scripts (bash, PowerShell), administración y monitorización de sistemas |
+| **Actividades de Refuerzo** | AE-R | Consolidar los contenidos mínimos y superar dificultades de aprendizaje. | Ejercicios adicionales con mayor apoyo y tutorización personalizada |
+| **Actividades de Profundización** | AE-P | Ampliar conocimientos más allá de los contenidos mínimos exigibles. | Configuraciones avanzadas, scripts complejos, optimización y hardening de sistemas |
+| **Actividades del Proyecto** | AE-PR | Integrar conocimientos de múltiples unidades mediante proyectos reales. | Proyectos de integración, automatización, monitorización y documentación técnica |
+| **Actividades del Reto** | AE-RT | Desarrollar competencias mediante resolución de problemas complejos y abiertos. | Resolución de incidencias, integración de sistemas, optimización y gestión de entornos heterogéneos |
 
-# METODOLOGÍA Y RECURSOS DIDÁCTICOS
+# 6. METODOLOGÍA Y RECURSOS DIDÁCTICOS
 
-## Metodología
+## 6.1. Metodología
 
 La metodología para el módulo de **Administración de Sistemas Operativos** se fundamenta en un enfoque práctico, basado en proyectos y retos reales de administración de sistemas. Se empleará una metodología activa y participativa que priorice el "saber hacer" mediante la realización de actividades prácticas en entornos simulados y reales.
 
-### Principios metodológicos fundamentales
+### 6.1.1. Principios metodológicos fundamentales
 | Principio | Descripción |
 |-----------|-------------|
 | **Aprendizaje basado en la práctica** | El alumnado trabajará directamente con sistemas operativos reales (Linux y Windows Server), configurando servicios, desarrollando scripts y gestionando procesos. Todas las unidades de trabajo incluyen prácticas de laboratorio. |
@@ -261,7 +272,7 @@ La metodología para el módulo de **Administración de Sistemas Operativos** se
 | **Utilización de documentación oficial** | Consulta e interpretación de documentación técnica de fabricantes (Red Hat, Microsoft, man pages) y especificaciones de estándares (RFC, LDAP, etc.). |
 | **Simulación de entornos empresariales** | Creación de entornos que simulen infraestructuras reales con servidores simulados, integración de sistemas heterogéneos y gestión centralizada con servicios de directorio. |
 
-### Metodología específica por unidad de trabajo
+### 6.1.2. Metodología específica por unidad de trabajo
 
 | UT | Unidad de Trabajo | Metodología |
 |:--:|-------------------|-------------|
@@ -273,11 +284,11 @@ La metodología para el módulo de **Administración de Sistemas Operativos** se
 | **UT7** | Automatización y monitorización | Desarrollo de scripts de automatización con cron y Programador de tareas, integración con herramientas de monitorización. |
 | **UT8** | Servidores de Impresión | Configuración práctica de servidores de impresión CUPS y servicios de Windows. |
 
-## Recursos Didácticos
+## 6.2. Recursos Didácticos
 
 Los recursos para el módulo de **Administración de Sistemas Operativos** se dividen en tres tipos:
 
-### 1. Materiales relacionados con los contenidos conceptuales
+### 6.2.1. 1. Materiales relacionados con los contenidos conceptuales
 
 Apuntes y actividades elaborados con **Material for MkDocs** y subidos a GitHub en repositorio público, accesible en la web del módulo.
 
@@ -292,9 +303,10 @@ Apuntes y actividades elaborados con **Material for MkDocs** y subidos a GitHub 
 | **Repositorios de código** | Enlaces a repositorios GitHub con código de ejemplo y proyectos | Enlaces en cada UT |
 | **Acceso** | Repositorio público del módulo en GitHub y plataforma educativa del centro | GitHub Pages |
 
-### 2. Materiales relacionados con los contenidos procedimentales
+### 6.2.2. 2. Materiales relacionados con los contenidos procedimentales
 
 Manuales y documentación de las herramientas propias de Sistemas Operativos.
+
 | Categoría | Material |
 |-----------|----------|
 | **Documentación oficial de Linux** | man pages, info pages, documentación de Red Hat, Ubuntu |
@@ -306,9 +318,10 @@ Manuales y documentación de las herramientas propias de Sistemas Operativos.
 
 Todos los enlaces a manuales oficiales y material extra están disponibles en la web del curso.
 
-### 3. Materiales relacionados con los productos y software
+### 6.2.3. 3. Materiales relacionados con los productos y software
 
 Software diverso y adecuado para alcanzar los resultados de aprendizaje, relacionados con productos del entorno empresarial.
+
 | Categoría | Software |
 |-----------|----------|
 | **Virtualización** | VirtualBox, Docker, Vagrant |
@@ -323,7 +336,7 @@ Software diverso y adecuado para alcanzar los resultados de aprendizaje, relacio
 
 **Nota**: Los recursos software ya están instalados en los equipos del centro y se basan en software libre, facilitando que el alumnado pueda utilizarlos en sus equipos personales. El uso de software libre permite la extensión del aprendizaje más allá del horario lectivo y la reproducción de los ejercicios y prácticas en sus propios ordenadores.
 
-### Equipamiento del aula
+### 6.2.4. Equipamiento del aula
 | Equipamiento | Descripción |
 |--------------|-------------|
 | **Ordenadores del aula** | Equipos con VirtualBox, Docker y herramientas de administración instaladas |
@@ -332,7 +345,7 @@ Software diverso y adecuado para alcanzar los resultados de aprendizaje, relacio
 | **Conexión a Internet** | Acceso para descarga de documentación y actualizaciones |
 | **Acceso remoto** | Posibilidad de practicar conexiones SSH y RDP entre equipos del aula |
 
-# Evaluación
+# 7. Evaluación
 
 La evaluación en el módulo de **Administración de Sistemas Operativos** se concibe como un proceso continuo, formativo e integral que permite verificar el grado de adquisición de los resultados de aprendizaje establecidos. El sistema de evaluación está diseñado para comprobar no solo la adquisición de conocimientos teóricos, sino fundamentalmente las competencias prácticas necesarias para la administración efectiva de sistemas operativos en entornos empresariales reales.
 
@@ -340,11 +353,13 @@ La evaluación se articula a través de diversos instrumentos que permiten valor
 
 Todos los procedimientos de evaluación están orientados a asegurar que el alumnado adquiere las competencias profesionales, personales y sociales necesarias para su desempeño en el mundo laboral, siguiendo los criterios establecidos en el Real Decreto 1629/2009 y la ORDEN 36/2012 de la Conselleria de Educación.
 
-## Procedimientos y criterios de evaluación y recuperación
+## 7.1. Procedimientos y criterios de evaluación y recuperación
 
 Se emplean diferentes procedimientos de evaluación que permiten verificar el grado de adquisición de los resultados de aprendizaje (RA) y la capacidad del alumnado para aplicar los conocimientos adquiridos en entornos simulados o reales. Para evaluar los procedimientos de evaluación descritos se utilizan los instrumentos de evaluación (IE) y los instrumentos de calificación (IC).
 
-### Instrumentos de Evaluación (IE) y Instrumentos de Calificación (IC)
+### 7.1.1. Instrumentos de Evaluación (IE) y Instrumentos de Calificación (IC)
+
+<div class="table-instrumentos-evaluacion"></div>
 
 | Instrumentos Evaluación| Código | Descripción | Instrumentos Calificación | Puntuación |
 |-----------------------------------------------|-------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------|-----------------|
@@ -357,35 +372,38 @@ Se emplean diferentes procedimientos de evaluación que permiten verificar el gr
 | Memoria técnica y portfolio | MT | Documentación, repositorio de scripts, issues y evidencias | Rúbrica: Completitud, Calidad técnica, Evidencias (0-60) | Sobre 60 |
 | Pruebas objetivas | PO | Cuando proceda, cuestionarios y pruebas procedimentales | Escala 0-30 | Sobre 30 |
 
-### Cálculo de calificaciones
+### 7.1.2. Cálculo de calificaciones
 
 Media ponderada de los IE asignados a cada RA, comprobando que se cubren todos los CE declarados para los 7 Resultados de Aprendizaje del módulo.
 
 **Distribución de la calificación:**
+
 - **Nota final** = Media aritmética ponderada de los 7 RA según sus pesos (RA1: 20%, RA2: 10%, RA3: 10%, RA4: 10%, RA5: 10%, RA6: 20%, RA7: 20%)
 - **Calificación positiva**: Nota igual o superior a 5 puntos
 - **Requisito indispensable**: Para superar el módulo es necesario que **todos los RAs tengan calificación positiva** (≥5 puntos)
 - **Todas las calificaciones**: Disponibles en Aules
 
-### Recuperación y evaluación extraordinaria
+### 7.1.3. Recuperación y evaluación extraordinaria
 
 El alumnado que no haya superado los criterios de evaluación de los RA podrá recuperarlos en **convocatoria ordinaria y extraordinaria** mediante:
+
 - Actividades de refuerzo específicas para cada RA no superado
 - Examen final por bloques correspondientes a cada RA
 - Reprogramación de prácticas no superadas con documentación técnica
 
 **Criterios de superación:**
+
 - La nota final será el resultado de la media aritmética ponderada de todos los RA evaluados positivamente
 - **Para superar el módulo es necesario que TODOS los RAs tengan calificación positiva** (≥5 puntos) tanto en convocatoria ordinaria como en extraordinaria
 
-### Otros criterios
+### 7.1.4. Otros criterios
 
 - **Seguimiento y tutorización**: Individual y colectiva mediante actas de reunión y diarios de aprendizaje
 - **Originalidad y uso responsable de IA**: Declaración de uso de herramientas de IA, fuentes y licencias
 - **Documentación técnica**: Todas las configuraciones y scripts deben estar documentados con evidencias
 - **Colaboración**: Valoración del trabajo en grupo en proyectos de integración y automatización
 
-# Inclusión y Diseño Universal para el Aprendizaje (DUA)
+# 8. Inclusión y Diseño Universal para el Aprendizaje (DUA)
 
 Se tendrá en cuenta el **Decreto 104/2018, de 27 de julio**, del Consell, por el que se desarrollan los principios de equidad e inclusión en el sistema educativo valenciano, que regula la inclusión del alumnado en enseñanzas postobligatorias, y también la **ORDEN 20/2016, de 30 de abril**, de la Conselleria de Educación, Investigación, Cultura y Deporte, que regula la respuesta educativa para la inclusión del alumnado.
 
@@ -395,9 +413,9 @@ Dichas medidas se diseñan considerando la heterogeneidad del grupo-clase y se f
 
 El módulo de **Administración de Sistemas Operativos** se planifica siguiendo los principios del Diseño Universal para el Aprendizaje (DUA), que garantiza que todos los estudiantes puedan acceder, participar y progresar en su aprendizaje, proporcionando múltiples formas de representación, acción y expresión, y compromiso.
 
-## Principios DUA aplicados en el módulo
+## 8.1. Principios DUA aplicados en el módulo
 
-### 1. Múltiples formas de representación
+### 8.1.1. 1. Múltiples formas de representación
 | Principio | Aplicación en ASO |
 |-----------|-------------------|
 | Información auditiva y visual | Documentación técnica en PDF, presentaciones en vídeo y acceso a documentación online (man pages, Microsoft Learn) |
@@ -405,7 +423,7 @@ El módulo de **Administración de Sistemas Operativos** se planifica siguiendo 
 | Comprensión de conceptos | Mapas conceptuales, diagramas de arquitectura de servicios, ejemplos paso a paso con capturas de pantalla |
 | Lenguaje claro | Documentación técnica adaptada al nivel del alumnado, glosario de términos |
 
-### 2. Múltiples formas de acción y expresión
+### 8.1.2. 2. Múltiples formas de acción y expresión
 | Principio | Aplicación en ASO |
 |-----------|-------------------|
 | Múltiples herramientas físicas | Opción de trabajar desde terminal de texto o herramientas gráficas (VS Code, PowerShell ISE) |
@@ -413,7 +431,7 @@ El módulo de **Administración de Sistemas Operativos** se planifica siguiendo 
 | Múltiples medios para la comunicación | Documentación técnica escrita, presentaciones orales, demos grabadas, repositorios GitHub |
 | Actividades con grados variables | Prácticas de nivel básico, intermedio y avanzado; proyectos de integración escalables |
 
-### 3. Múltiples formas de compromiso
+### 8.1.3. 3. Múltiples formas de compromiso
 | Principio | Aplicación en ASO |
 |-----------|-------------------|
 | Optimizar la autonomía | Trabajo por proyectos con elección de tecnologías, elaboración de scripts propios |
@@ -421,44 +439,48 @@ El módulo de **Administración de Sistemas Operativos** se planifica siguiendo 
 | Interés y motivación | Retos de administración de sistemas, simulación de entornos reales, certificaciones |
 | Establecer metas personales | Permitir profundización en áreas de interés del alumnado |
 
-## Medidas de atención a la diversidad específicas
+## 8.2. Medidas de atención a la diversidad específicas
 
-### Adaptaciones metodológicas
+### 8.2.1. Adaptaciones metodológicas
 
 - **Tiempos flexibles**: Prórroga en entregas para alumnado con dificultades temporales
 - **Agrupamientos heterogéneos**: Trabajo colaborativo en proyectos de integración
 - **Niveles de profundización**: Actividades de refuerzo y ampliación según necesidades
 - **Apoyo personalizado**: Tutorías individuales para clarificar conceptos técnicos
 
-### Adaptaciones en la evaluación
+### 8.2.2. Adaptaciones en la evaluación
 
 - **Instrumentos diversos**: Prácticas, proyectos, portfolios, defensas orales
 - **Tiempo adicional**: Para alumnado con dificultades en lectoescritura o procesos mentales
 - **Evaluación oral**: Alternativa para alumnado con dificultades de escritura
 - **Rúbricas claras**: Criterios explícitos y retroalimentación formativa continua
 
-### Apoyos y recursos
+### 8.2.3. Apoyos y recursos
 
 - **Material adaptado**: Versiones de scripts simplificadas, guías paso a paso visuales
 - **Software accesible**: Herramientas de línea de comandos y gráficas disponibles
 - **Tutorización**: Seguimiento individualizado y atención a dificultades específicas
 - **Colaboración**: Trabajo en grupo para proyectos complejos de integración
 
-# FORMACIÓN DUAL EN LA EMPRESA
+# 9. FORMACIÓN DUAL EN LA EMPRESA
 
-En coherencia con su aportación al proyecto intermodular, el módulo de **Administración de Sistemas Operativos** refuerza su valor formativo a través de su carácter dual. La formación dual facilita la transición entre el entorno educativo y el profesional, favoreciendo el desarrollo de competencias transversales como la autonomía y la responsabilidad, mejorando la empleabilidad del alumnado y consolidando su perfil técnico.
+En coherencia con su aportación al proyecto intermodular, el módulo de **Administración de Sistemas Operativos** refuerza su valor formativo a través de su carácter dual. 
 
-En este centro se ha optado por el **régimen general de Formación en Empresa (FE)**, lo que implica que el alumnado realizará entre el 25% y el 35% de la duración total del ciclo formativo en un entorno profesional real.
+La formación dual facilita la transición entre el entorno educativo y el profesional, favoreciendo el desarrollo de competencias transversales como la autonomía y la responsabilidad, mejorando la empleabilidad del alumnado y consolidando su perfil técnico.
 
-Este régimen garantiza que, como mínimo, se desarrollará el **10% de los resultados de aprendizaje del ciclo** durante la estancia en la empresa, y que se completarán al menos **500 horas de formación**, distribuidas entre los distintos cursos.
+## 9.1. Régimen de Formación en Empresa (FE)
 
-En concreto, en **segundo curso** se han previsto entre **400 horas de formación en empresa**, reservando para ello **cuatro semanas completas** dentro del periodo lectivo, con el fin de facilitar la integración del alumnado en el entorno laboral.
+En este centro se ha optado por el **régimen general de Formación en Empresa (FE)**, lo que implica que el alumnado realizará entre el **25% y el 35%** de la duración total del ciclo formativo en un entorno profesional real. 
 
-En el caso del módulo de **Administración de Sistemas Operativos**, esto supone una distribución de las **133 horas lectivas** en **93 horas en el centro educativo** y **40 horas en la empresa**.
+Este régimen garantiza que se desarrollará el **10% de los resultados de aprendizaje del ciclo** durante la estancia en la empresa y que se completarán al menos **500 horas de formación**, distribuidas entre los distintos cursos.
 
-En este módulo, el resultado de aprendizaje que se desarrollará en la empresa es el **RA1: Administra el servicio de directorio interpretando especificaciones e integrándolo en una red**. Este RA ha sido trabajado previamente en el centro educativo durante 18 horas como parte de la UT4, donde el alumnado ha adquirido los conocimientos y competencias necesarias para su aplicación práctica en el entorno empresarial.
+En **segundo curso** se han previsto entre **400 horas de formación en empresa**, reservando para ello **diez semanas completas** dentro del periodo lectivo, con el fin de facilitar la integración del alumnado en el entorno laboral.
 
-## Ejemplo de articulación de la dualidad
+En el caso del módulo de **Administración de Sistemas Operativos**, el régimen de FE supone una distribución de **93 horas en el centro educativo** y **40 horas en la empresa**, completando las **133 horas lectivas** del módulo.
+
+El resultado de aprendizaje que se desarrollará en la empresa es el **RA1: Administra el servicio de directorio interpretando especificaciones e integrándolo en una red**. Este RA ha sido trabajado previamente en el centro educativo durante **18 horas** como parte de la UT4, donde el alumnado ha adquirido los conocimientos y competencias necesarias para su aplicación práctica en el entorno empresarial.
+
+## 9.2. Ejemplo de articulación de la dualidad
 
 A continuación, se presenta un ejemplo concreto que ilustra cómo se articula esta dualidad a través del **RA1: Administra el servicio de directorio interpretando especificaciones e integrándolo en una red**:
 
@@ -466,7 +488,7 @@ A continuación, se presenta un ejemplo concreto que ilustra cómo se articula e
 
 - **En la empresa**: El alumnado participa en la gestión real de infraestructuras de directorio empresariales, administrando usuarios y grupos en entornos de producción, configurando políticas de seguridad y permisos para aplicaciones corporativas, integrando servicios de directorio con sistemas heterogéneos, y realizando tareas de mantenimiento y resolución de incidencias en servicios LDAP/Active Directory de producción.
 
-# Evaluación de la Formación en Empresa
+# 10. Evaluación de la Formación en Empresa
 
 La evaluación de la Formación en Empresa (FE) se fundamenta en una valoración conjunta entre el entorno profesional y el centro educativo, en coherencia con el carácter dual del módulo y el marco normativo vigente. Dicha evaluación se basa en las siguientes premisas:
 

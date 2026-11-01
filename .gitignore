@@ -7,7 +7,17 @@ venv/
 env/
 *.pyc
 
+# Node modules
+node_modules/
+*.log
+
 # IDE
 .vscode/
 .idea/
 
+# PDFs generados (opcional, pueden versionarse)
+*.pdf
+
+
+# macOS
+.DS_Store

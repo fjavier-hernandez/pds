@@ -1,0 +1,390 @@
+/* Estilos de impresión para Propuestas Didácticas ASO */
+
+:root {
+  --width: 21cm;
+  --margin: 1cm;
+  --height: 29.7cm;
+  --offset: calc(var(--margin) * 2);
+}
+
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+/* Saltos de página específicos usando divs */
+.page-break-before {
+  page-break-before: always !important;
+}
+
+/* Tamaños de fuente base */
+body, .md-typeset {
+  font-size: 11pt !important;
+  line-height: 1.4;
+  print-color-adjust: exact;
+  text-rendering: optimizeLegibility;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 16pt !important;
+  page-break-before: always;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* H1 siempre con su contenido siguiente - no separar */
+h1 + * {
+  page-break-before: avoid;
+}
+
+h2 {
+  font-size: 14pt !important;
+  page-break-before: auto;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  orphans: 2;
+  widows: 2;
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 12pt !important;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  margin-top: 0.6em;
+  margin-bottom: 0.4em;
+}
+
+h4, h5, h6 {
+  font-size: 11pt !important;
+  page-break-after: avoid;
+}
+
+/* TABLAS: fuente 9pt y evitar divisiones siempre */
+table {
+  font-size: 9pt !important;
+  page-break-inside: avoid !important;
+  width: 100% !important;
+  border-collapse: collapse;
+  table-layout: fixed !important;
+  margin: 0.4em 0 !important;
+  line-height: 1.2 !important;
+}
+
+/* Tabla grande "Unidades de Trabajo del módulo ASO" (8 columnas: UT + 7 RA) */
+.table-unidades-ra ~ table {
+  font-size: 7.5pt !important;
+  page-break-inside: avoid !important;
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+/* Tabla específica Unidades vs RA - muy compacta y ajustada */
+.table-unidades-ra ~ table td,
+.table-unidades-ra ~ table th {
+  padding: 0.1em 0.15em !important;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Tabla específica: ajuste de anchos para tabla de 8 columnas */
+.table-unidades-ra ~ table th:first-child,
+.table-unidades-ra ~ table td:first-child {
+  width: 25% !important;
+}
+
+.table-unidades-ra ~ table th:not(:first-child),
+.table-unidades-ra ~ table td:not(:first-child) {
+  width: 10.7% !important;
+  font-size: 7pt !important;
+}
+
+.table-unidades-ra {
+  display: none;
+}
+
+/* Tablas de UT del apartado 4.2 (H3 + tabla de 2 columnas) - deben caber en una página */
+h3:has(+ table) + table,
+h3 + table {
+  font-size: 8pt !important;
+  page-break-inside: avoid !important;
+  max-height: 26.5cm;
+  overflow: visible;
+}
+
+/* Si aún no cabe, reducir más */
+h3 + table:has(td:nth-child(2)) {
+  font-size: 7.5pt !important;
+}
+
+/* Tabla 7.1.1 - Instrumentos de Evaluación (5 columnas) */
+.table-instrumentos-evaluacion + table {
+  font-size: 7.5pt !important;
+  page-break-inside: avoid !important;
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.table-instrumentos-evaluacion + table td,
+.table-instrumentos-evaluacion + table th {
+  padding: 0.15em 0.2em !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  vertical-align: top;
+  font-size: 7pt !important;
+}
+
+.table-instrumentos-evaluacion {
+  display: none;
+}
+
+/* Padding de celdas ajustado al contenido para todas las tablas */
+table td,
+table th {
+  padding: 0.25em 0.4em !important;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  vertical-align: top;
+}
+
+/* Tablas de 2 columnas (UT): columna 1 estrecha, columna 2 ancha */
+table:has(td:nth-child(2):not(:nth-child(3))) {
+  table-layout: fixed !important;
+}
+
+table:has(td:nth-child(2):not(:nth-child(3))) td:first-child {
+  width: 28% !important;
+  font-weight: bold;
+}
+
+table:has(td:nth-child(2):not(:nth-child(3))) td:nth-child(2) {
+  width: 72% !important;
+}
+
+/* H2/H3 + tabla deben ir juntos */
+h2 + table,
+h3 + table {
+  page-break-before: avoid;
+}
+
+/* Párrafos: ajustar entre párrafos si es necesario */
+p {
+  orphans: 3;
+  widows: 3;
+  page-break-inside: avoid;
+  margin: 0.4em 0;
+  text-align: justify;
+}
+
+/* Listas juntas con su encabezado */
+h2 + ul,
+h2 + ol,
+h3 + ul,
+h3 + ol {
+  page-break-before: avoid;
+}
+
+ul, ol {
+  page-break-inside: avoid;
+  orphans: 2;
+  widows: 2;
+  margin: 0.3em 0;
+  padding-left: 1.5em;
+  font-size: 11pt !important;
+}
+
+li {
+  page-break-inside: avoid;
+  margin: 0.2em 0;
+}
+
+/* Mantener listas de criterios juntas */
+ul li,
+ol li {
+  orphans: 2;
+  widows: 2;
+}
+
+/* Evitar páginas vacías */
+h1 + h1,
+h1 + h2 {
+  page-break-before: auto;
+}
+
+/* Evitar que queden páginas con solo encabezados */
+h1:last-child,
+h2:last-child,
+h3:last-child {
+  page-break-after: avoid;
+}
+
+/* Separadores horizontales */
+hr {
+  page-break-after: always;
+  border: none;
+  margin: 0;
+  height: 0;
+}
+
+/* Imágenes (portada) */
+img {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5em auto;
+}
+
+/* Portada: debe estar sola en su página */
+img[alt*="Portada"] {
+  page-break-after: always;
+  page-break-before: always;
+}
+
+/* Bloques de código y admonitions */
+.admonition,
+blockquote,
+pre,
+code {
+  page-break-inside: avoid;
+  margin: 0.4em 0;
+}
+
+pre {
+  font-size: 9pt !important;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  page-break-inside: avoid;
+}
+
+code {
+  font-size: 9pt !important;
+}
+
+/* Ocultar elementos de navegación y UI */
+.md-header,
+.md-sidebar,
+.md-nav,
+.md-consent,
+.md-consent__inner,
+[data-md-component="consent"],
+.md-banner,
+.md-source-file,
+hr + .md-source-file {
+  display: none !important;
+}
+
+/* Espaciado general */
+.md-typeset {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-main,
+.md-main__inner {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-content,
+.md-content__inner {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-content__inner::before {
+  height: 0 !important;
+}
+
+/* Asegurar que el contenido de print-site sea visible */
+.print-site-page,
+.print-page,
+[data-toc-depth],
+.print-page-toc-nav {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.md-content__inner,
+article.md-content__inner {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Mejorar ajuste de texto en tablas - evitar desbordamiento */
+table td,
+table th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+/* Forzar que tablas de UT quepan en una página - ajuste más agresivo */
+section:has(h3) + table,
+h3 + table {
+  font-size: 8pt !important;
+  page-break-inside: avoid !important;
+}
+
+/* Asegurar que no queden páginas vacías */
+@page :blank {
+  @top-center {
+    content: "";
+  }
+}
+
+/* Referencias y enlaces */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Evitar orfandos y líneas viudas */
+* {
+  orphans: 3;
+  widows: 3;
+}
+
+/* Optimización de impresión */
+@media print {
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  
+  body {
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Forzar ajustes de tablas en impresión */
+  table {
+    font-feature-settings: normal;
+    font-variant-numeric: normal;
+  }
+}
+
+/* Regla específica para tablas que siguen a un H3 del apartado 4.2 */
+/* Aplicar a todas las tablas que siguen inmediatamente a un H3 */
+
+/* Ajuste final agresivo para tablas que siguen inmediatamente a H3 */
+.md-typeset h3 + table {
+  font-size: 7.5pt !important;
+  page-break-inside: avoid !important;
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+
+.md-typeset h3 + table td {
+  padding: 0.2em 0.3em !important;
+  font-size: 7.5pt !important;
+}

@@ -1,10 +1,13 @@
-site_name: Propuestas didácticas
+site_name: Propuestas Didácticas Francisco Javier Hernández Illán 2025-2026
 site_url: https://fjavier-hernandez.github.io/pds/
 use_directory_urls: false
 
 nav:
   - "Inicio": "index.md"
-  - "1.- PD ASO": "2ASIR - ASO - 25-26.md"
+  - "Propuestas Didácticas":
+    - "ASO 2025-2026": "2ASIR - ASO - 25-26.md"
+    - "PI 2025-2026": "2ASIR - PI - 25-26.md"
+    - "RAL 2025-2026": "1SMR - RAL - 25-26.md"
 
 
 theme:
@@ -38,11 +41,9 @@ theme:
     - announce.dismiss
     - toc.follow
     - content.code.copy
-    # - header.autohide
-    # - toc.integrate
-    # - navigation.indexes
+    - toc.integrate
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/pdf.css
 
 extra:
   status:
@@ -61,13 +62,6 @@ extra:
     provider: google
     property: G-0CPJP88MBF
 
-  consent:
-    title: Consentimiento de cookie
-    description: >-
-      Esta página de apuntes utiliza cookies para reconocer las visitas, medir la efectividad de la documentación
-      y averiguar si encuentras aquello que buscas o cómo has llegado a estos apuntes.
-      Con tu consentimiento, me ayudas a mejorar estos materiales.
-
 plugins:
   - search
   - tags
@@ -76,8 +70,9 @@ plugins:
   - print-site:
       enumerate_headings: false
       toc_title: Tabla de contenidos
-      include_css: false
+      include_css: true
       exclude:
+        - "index.md"
         - "tags.md"
         - "relacion.md"
         - "satisfaccion.md"
